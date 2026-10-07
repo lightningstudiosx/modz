@@ -1,0 +1,129 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "kai.overload-menu",
+	"name": "Overload Menu",
+	"version": "v2.0.0",
+	"developer": "Kai",
+	"description": "A huge mod menu: 270+ options. Noclip, speedhack, startpos switcher, custom icons & colours, trails, HUD, screen effects and more.",
+	"tags": [
+		"gameplay",
+		"utility",
+		"interface",
+		"cheat"
+	],
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"settings": {
+		"keys-title": {
+			"type": "title",
+			"name": "Keys",
+			"description": "Every option is inside the menu itself (Tab). These are just the shortcut keys."
+		},
+		"open-menu": {
+			"type": "keybind",
+			"name": "Open the menu",
+			"default": "Tab",
+			"category": "universal",
+			"description": "Opens or closes the Overload Menu anywhere in the game."
+		},
+		"toggle-noclip": {
+			"type": "keybind",
+			"name": "Toggle noclip",
+			"default": "N",
+			"category": "gameplay"
+		},
+		"toggle-speedhack": {
+			"type": "keybind",
+			"name": "Toggle speedhack",
+			"default": "Alt+S",
+			"category": "gameplay"
+		},
+		"speed-up": {
+			"type": "keybind",
+			"name": "Speed up",
+			"default": "Alt+Up",
+			"category": "gameplay",
+			"description": "Raises the speedhack speed (and turns speedhack on)."
+		},
+		"speed-down": {
+			"type": "keybind",
+			"name": "Speed down",
+			"default": "Alt+Down",
+			"category": "gameplay",
+			"description": "Lowers the speedhack speed (and turns speedhack on)."
+		},
+		"slowmo-hold": {
+			"type": "keybind",
+			"name": "Slow-mo (hold)",
+			"default": "C",
+			"category": "gameplay",
+			"description": "Hold in a level to play at the Slow-mo speed set in the menu."
+		},
+		"frame-step": {
+			"type": "keybind",
+			"name": "Frame stepper: step",
+			"default": "F",
+			"category": "gameplay",
+			"description": "With the frame stepper on, moves the game forward one tick. Hold it to keep going."
+		},
+		"startpos-prev": {
+			"type": "keybind",
+			"name": "Previous start position",
+			"default": "Q",
+			"category": "gameplay"
+		},
+		"startpos-next": {
+			"type": "keybind",
+			"name": "Next start position",
+			"default": "E",
+			"category": "gameplay"
+		},
+		"restart-level": {
+			"type": "keybind",
+			"name": "Restart attempt",
+			"default": "Alt+R",
+			"category": "gameplay"
+		},
+		"toggle-hud": {
+			"type": "keybind",
+			"name": "Toggle HUD",
+			"default": "H",
+			"category": "gameplay"
+		},
+		"toggle-hitboxes": {
+			"type": "keybind",
+			"name": "Toggle hitboxes",
+			"default": "Alt+H",
+			"category": "gameplay"
+		},
+		"toggle-autoclicker": {
+			"type": "keybind",
+			"name": "Toggle auto clicker",
+			"default": "Alt+A",
+			"category": "gameplay"
+		},
+		"toggle-jump-hack": {
+			"type": "keybind",
+			"name": "Toggle jump hack",
+			"default": "Alt+J",
+			"category": "gameplay"
+		},
+		"hud-title": {
+			"type": "title",
+			"name": "HUD"
+		},
+		"custom-hud-text": {
+			"type": "string",
+			"name": "Custom HUD text",
+			"description": "Shown on the HUD when 'Custom text' is on (HUD tab).",
+			"default": "Overload Menu"
+		}
+	}
+}
